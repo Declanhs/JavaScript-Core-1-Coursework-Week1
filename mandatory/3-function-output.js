@@ -1,15 +1,17 @@
-// Add comments to explain what this function does. You're meant to use Google!
+// Add comments to explain what this function does. You're meant to use Google! This function gets a random number and times it by 10, I didn't use google as I don't think I needed too.
 function getRandomNumber() {
   return Math.random() * 10;
 }
 
-// Add comments to explain what this function does. You're meant to use Google!
+// Add comments to explain what this function does. You're meant to use Google This function is made to combine to words with a space !
 function combine2Words(word1, word2) {
   return word1.concat(word2);
 }
 
 function concatenate(firstWord, secondWord, thirdWord) {
+  return firstWord + " " + secondWord + " " + thirdWord;
   // Write the body of this function to concatenate three words together.
+  //This function was meant to produce I am 13 with the spaces but these had not been added
   // Look at the test case below to understand what this function is expected to return.
 }
 
